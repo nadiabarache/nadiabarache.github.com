@@ -12,7 +12,13 @@ bp_blog_blog:
 
 bp_blog_article1:
     path:     /blog/blog/1
-    defaults: { _controller: BPBlogBundle:Blog:artcileOne}
+    defaults: { _controller: BPBlogBundle:Blog:articleOne}
+bp_blog_article2:
+    path:     /blog/blog/2
+    defaults: { _controller: BPBlogBundle:Blog:articleTwo}
+bp_blog_article3:
+    path:     /blog/blog/3
+    defaults: { _controller: BPBlogBundle:Blog:articleThree}
 bp_blog_contact:
     path:     /blog/contact
     defaults: { _controller: BPBlogBundle:Blog:contact }

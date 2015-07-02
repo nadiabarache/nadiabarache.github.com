@@ -34,6 +34,15 @@ class BlogController extends Controller
         return $this->render('BPBlogBundle:Blog:articleOne.html.twig');
     }
 
+    public function artcileTwoAction()
+    {
+        return $this->render('BPBlogBundle:Blog:articleTow.html.twig');
+    }
+    public function articleThreeAction()
+    {
+        return $this->render('BPBlogBundle:Blog:articleThree.html.twig');
+    }
+
      public function contactAction()
     {
         return $this->render('BPBlogBundle:Blog:contact.html.twig');

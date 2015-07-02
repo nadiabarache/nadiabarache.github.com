@@ -1,0 +1,18 @@
+bp_blog_homepage:
+    path:     /blog/index
+    defaults: { _controller: BPBlogBundle:Blog:index }
+
+bp_blog_porfolio:
+    path:     /blog/porfolio
+    defaults: { _controller: BPBlogBundle:Blog:porfolio }
+
+bp_blog_blog:
+    path:     /blog/blog
+    defaults: { _controller: BPBlogBundle:Blog:blog }
+
+bp_blog_article1:
+    path:     /blog/blog/1
+    defaults: { _controller: BPBlogBundle:Blog:artcileOne}
+bp_blog_contact:
+    path:     /blog/contact
+    defaults: { _controller: BPBlogBundle:Blog:contact }
